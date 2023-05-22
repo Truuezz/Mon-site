@@ -1,0 +1,85 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  font-family: Montserrat;
+  background-color: #F4EEE0;
+}
+
+/* NAVIGATION*/
+.flex-nav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  padding-right: 7em;
+  padding-left: 7em;
+  
+}
+
+.flex-ul
+{
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
+.flex-nav a
+{
+  color: #333533;
+}
+
+.logo-coconut
+{
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #333533;
+}
+
+.ici
+{
+  font-weight: 700;
+}
+
+/* SECTION 1*/
+
+section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+
+h1
+{
+  font-size: 600%;
+  font-weight: 800;
+  color: #333533;
+  text-align: center;
+}
+
+iframe
+{
+  margin: auto;
+  top: 0;
+  left: 0;
+  border: 1em solid white;
+}

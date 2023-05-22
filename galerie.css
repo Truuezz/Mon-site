@@ -1,0 +1,86 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  font-family: Montserrat;
+  background-color: #F4EEE0;
+}
+
+/* NAVIGATION*/
+.flex-nav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  padding-right: 7em;
+  padding-left: 7em;
+  
+}
+
+.flex-ul
+{
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
+.flex-nav a
+{
+  color: #333533;
+}
+
+.logo-coconut
+{
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #333533;
+}
+
+.ici
+{
+  font-weight: 700;
+}
+
+/* SECTION 1*/
+
+h1{
+    text-align: center;
+    color: #333533;
+    font-size: 4em;
+    margin: 1em;
+
+}
+
+div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 29em;
+    padding-right: 29em;
+    gap: 2em;
+}
+
+
+img
+{
+    width: 22em;
+    height: 15em;
+}

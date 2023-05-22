@@ -1,0 +1,875 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  font-family: Montserrat;
+}
+
+section
+{
+  height: 100vh;
+  position: relative;
+}
+
+/*BARRE DE NAVIGATION*/
+/*BARRE DE NAVIGATION*/
+/*BARRE DE NAVIGATION*/
+.flex-nav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  padding-right: 7em;
+  padding-left: 7em;
+  
+}
+
+.flex-ul
+{
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
+.flex-nav a
+{
+  color: #333533;
+}
+
+.logo-coconut
+{
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #333533;
+}
+
+.ici
+{
+  font-weight: 700;
+}
+/*BARRE DE NAVIGATION*/
+/*BARRE DE NAVIGATION*/
+/*BARRE DE NAVIGATION*/
+
+/* SECTION 1 NOIX DE COCO*/
+/* SECTION 1 NOIX DE COCO*/
+/* SECTION 1 NOIX DE COCO*/
+
+
+
+
+
+#section-1
+{
+  background-color: #F4EEE0;
+}
+
+.h1-coco
+{
+  font-size: 5em;
+  font-weight: 900;
+  color: #333533
+}
+
+.p-coco
+{
+  font-size: 1.92em;
+  color: #333533;
+  font-weight: 300;
+}
+
+.bio-span25
+{
+  color: #83BD75;
+  font-weight: bold;
+}
+
+.noix-de-coco
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.5em;
+}
+
+.image-coco
+{
+  width: 45em;
+  height: 45em;
+}
+
+
+/* SCROLL BUTON*/
+a#scroll-btn 
+{
+  position: absolute;
+  height: 10em;
+  width: 6.25em;
+  border: 0.5em solid #333533;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 15em;
+  border-radius: 3em;
+}
+
+a#scroll-btn:before
+{
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1.2em;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: #333533;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
+@keyframes move-down
+{
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(5.3em);
+    opacity: 0;
+  }
+}
+a#scroll-btn:after
+{
+  position: absolute;
+  content: "CLIQUE ICI";
+  width: 12em;
+  display: block;
+  width: 12em;
+  text-align: center;
+  left: -4.2em;
+  bottom: -2.5em;
+  font-size: 1.6em;
+  color: #333533;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1871px)
+{
+  a#scroll-btn, a#scroll-btn-2, a#scroll-btn-3
+  {
+    display: none;
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+/* SCROLL BUTON*/
+
+/* DIVIDER*/
+.custom-shape-divider-bottom-1684501221 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1684501221 svg {
+  position: relative;
+  display: block;
+  width: calc(157% + 1.3px);
+  height: 99px;
+}
+
+.custom-shape-divider-bottom-1684501221 .shape-fill {
+  fill: #FFFAF4;
+}
+/* DIVIDER*/
+
+/* SECTION 1 NOIX DE COCO*/
+/* SECTION 1 NOIX DE COCO*/
+/* SECTION 1 NOIX DE COCO*/
+
+/* SECTION 2 BIENFAIT */
+/* SECTION 2 BIENFAIT */
+/* SECTION 2 BIENFAIT */
+
+.bienfaits
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFAF4;
+  
+}
+
+.h1-bienfaits
+{
+  position: absolute;
+  top: 0.5em;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 800;
+  background-image: linear-gradient(to right, #ea8fea, #ff95ca, #ffa5b2, #ffbaa6, #ffceab, #f0d7ab, #dfdeb2, #d0e4bf, #b2e0c7, #9adad4, #8ed2e1, #93c6e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.div-bienfaits
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  margin-top: 0em;
+}
+
+.div-bienfaits strong
+{
+ color: #333533;
+ padding: 1em;
+ text-align: center;
+ width: 30em;
+ font-weight: 400;
+}
+
+.bienfaits h2
+{
+ color: #333533;
+ border-top: 0.2em solid #333533;
+ padding: 1em;
+ text-align: center;
+ margin-bottom: -2em;
+ font-weight: 600;
+}
+
+
+
+.icone-bienfaits
+{
+  width: 13em;
+  filter: invert(16%) sepia(9%) saturate(214%) hue-rotate(71deg) brightness(97%) contrast(87%);
+}
+
+.icone-bienfaits.cerveau
+{
+  filter: invert(78%) sepia(62%) saturate(1211%) hue-rotate(230deg) brightness(97%) contrast(88%);
+}
+
+.icone-bienfaits.energie
+{
+  filter: invert(84%) sepia(49%) saturate(145%) hue-rotate(356deg) brightness(101%) contrast(93%);
+}
+
+.icone-bienfaits.medoc
+{
+  filter: invert(79%) sepia(16%) saturate(841%) hue-rotate(169deg) brightness(96%) contrast(88%);
+}
+/* SCROLL BUTON*/
+a#scroll-btn-2
+{
+  position: absolute;
+  height: 10em;
+  width: 6.25em;
+  border: 0.5em solid #333533;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 3.9em;
+  border-radius: 3em;
+}
+
+a#scroll-btn-2:before
+{
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1.2em;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: #333533;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
+@keyframes move-down
+{
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(5.3em);
+    opacity: 0;
+  }
+}
+a#scroll-btn-2:after
+{
+  position: absolute;
+  content: "CLIQUE ICI";
+  width: 12em;
+  display: block;
+  width: 12em;
+  text-align: center;
+  left: -4.2em;
+  bottom: -2.5em;
+  font-size: 1.6em;
+  color: #333533;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+/* SCROLL BUTON*/
+
+/* SECTION 2 BIENFAIT */
+/* SECTION 2 BIENFAIT */
+/* SECTION 2 BIENFAIT */
+
+/* SECTION 3 BIO */
+/* SECTION 3 BIO */
+/* SECTION 3 BIO */
+
+/* DIVIDER*/
+.custom-shape-divider-top-1684505022 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1684505022 svg {
+  position: relative;
+  display: block;
+  width: calc(157% + 1.3px);
+  height: 99px;
+}
+
+.custom-shape-divider-top-1684505022 .shape-fill {
+  fill: #FFFAF4;
+}
+/* DIVIDER*/
+
+.bio
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #C9DBB2;
+}
+.bordure-bio
+{
+  display: flex;
+  flex-direction: row;
+  padding: 5em;
+  padding-left: 19em;
+  justify-content: space-between;
+}
+
+.bordure-bio p 
+{
+
+  width: 50%;
+  color: #333533;
+  margin-top: 2em;
+}
+
+.bordure-bio h1
+{
+  font-size: 80px;
+  font-weight: 900;
+  color: #333533;
+
+}
+
+.label-bio
+{
+  width: 29em;
+  height: 29em;
+  position: absolute;
+  right: 15em;
+  top: 15em;
+  filter: invert(68%) sepia(26%) saturate(561%) hue-rotate(63deg) brightness(95%) contrast(91%);
+  
+  
+}
+
+/*SCROLL BUTON*/
+a#scroll-btn-3
+{
+  position: absolute;
+  height: 10em;
+  width: 6.25em;
+  border: 0.5em solid #333533;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 3.9em;
+  border-radius: 3em;
+}
+
+a#scroll-btn-3:before
+{
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1.2em;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: #333533;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
+@keyframes move-down
+{
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(5.3em);
+    opacity: 0;
+  }
+}
+a#scroll-btn-3:after
+{
+  position: absolute;
+  content: "CLIQUE ICI";
+  width: 12em;
+  display: block;
+  width: 12em;
+  text-align: center;
+  left: -4.2em;
+  bottom: -2.5em;
+  font-size: 1.6em;
+  color: #333533;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+/*SCROLL BUTON*/
+
+/* SECTION 3 BIO */
+/* SECTION 3 BIO */
+/* SECTION 3 BIO */
+
+/* SECTION 4 PRODUITS*/
+/* SECTION 4 PRODUITS*/
+/* SECTION 4 PRODUITS*/
+
+.custom-shape-divider-top-1684507267 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1684507267 svg {
+  position: relative;
+  display: block;
+  width: calc(164% + 1.3px);
+  height: 133px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1684507267 .shape-fill {
+  fill: #C9DBB2;
+}
+
+.produit
+{
+  background-color: #F4EEE0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15em;
+  padding-bottom: 35em;
+}
+
+
+.produit li
+{
+  list-style: inside url(images/done.svg);
+  font-size: 25px;
+  font-weight: 600;
+  color: #333533;
+  margin-left: 10px;
+}
+
+.produit h1
+{
+  font-size: 10em;
+  text-align: left;
+  color: #333533;
+}
+
+.copyright
+{
+  font-size: 25px;
+}
+
+.brique-coco
+{
+  width: 23em;
+  position: absolute;
+  left: 85em;
+  top: 6em;
+}
+
+.button-produit
+{
+  position: absolute;
+  left: 7em;
+  bottom: 6em;
+  text-transform: uppercase;
+  border: 3px solid;
+  cursor: pointer;
+  background: #C9DBB2;
+  border-radius: 5em;
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  box-shadow:
+  0px 52px 126px -36px rgba(0, 0, 0, 0.93)
+;
+  
+}
+/* SECTION 4 PRODUITS*/
+/* SECTION 4 PRODUITS*/
+/* SECTION 4 PRODUITS*/
+
+/* PIED DE PAGE */
+/* PIED DE PAGE */
+/* PIED DE PAGE */
+
+.exception
+{
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+/* FACEBOOK ICON*/
+.gg-facebook {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 20px;
+  height: 20px;
+  color: #333533;
+}
+.gg-facebook::after,
+.gg-facebook::before {
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box
+}
+.gg-facebook::before {
+  width: 8px;
+  height: 20px;
+  border-left: 4px solid;
+  border-top: 4px solid;
+  border-top-left-radius: 5px;
+  left: 6px
+}
+.gg-facebook::after {
+  width: 10px;
+  height: 4px;
+  background: currentColor;
+  top: 7px;
+  left: 4px;
+  transform: skew(-5deg)
+}
+
+/* INSTAGRAM ICON*/
+.gg-instagram {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  color: #333533;
+}
+.gg-instagram::after,
+.gg-instagram::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute
+}
+.gg-instagram::after {
+  border: 2px solid;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  top: 3px
+}
+.gg-instagram::before {
+  border-radius: 3px;
+  width: 2px;
+  height: 2px;
+  background: currentColor;
+  right: 1px;
+  top: 1px
+}
+
+/* YOUTUBE ICON*/
+.gg-youtube {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 20px;
+  height: 13px;
+  box-shadow: 0 0 0 2px;
+  border-radius:
+      15px 15px 15px 15px /
+      45px 45px 45px 45px;
+      color: #333533;
+}
+.gg-youtube::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 7px;
+  top: 2px;
+  border-left: 4px solid currentColor;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent
+}
+
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+
+
+@media screen and (max-width: 1871px)
+{
+ 
+
+  .noix-de-coco
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.5em;
+    height: 50%;
+    position: relative;
+  }
+
+  .image-coco
+  {
+    width: 25em;
+    height: 25em;
+  } 
+
+  .produit
+{
+  background-color: #F4EEE0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15em;
+  padding-bottom: 35em;
+  height: 15em;
+}
+
+
+.produit li
+{
+  list-style: inside url(images/done.svg);
+  font-size: 25px;
+  font-weight: 600;
+  color: #333533;
+  margin-left: 10px;
+}
+
+.produit h1
+{
+  font-size: 10em;
+  text-align: left;
+  color: #333533;
+}
+
+.copyright
+{
+  font-size: 25px;
+}
+
+.brique-coco
+{
+  display: none;
+}
+
+.button-produit
+{
+  position: absolute;
+  left: 7em;
+  bottom: 1em;
+  text-transform: uppercase;
+  border: 3px solid;
+  cursor: pointer;
+  background: #C9DBB2;
+  border-radius: 5em;
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  box-shadow:
+  0px 52px 126px -36px rgba(0, 0, 0, 0.93)
+;
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1151px)
+{
+  .h1-coco
+  {
+    font-size: 4em;
+    font-weight: 900;
+    color: #333533;
+    text-align: center;
+    margin-top: -1em;
+  }
+
+  .p-coco
+  {
+    font-size: 1.92em;
+    color: #333533;
+    font-weight: 300;
+    text-align: center;
+  }
+
+
+
+}
+
+@media screen and (max-width: 1430px)
+{
+  .bienfaits
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFAF4;
+    height: 115em;
+    gap: 5em;
+  }
+
+  .bienfaits h1
+  {
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width: 1677px)
+
+{
+  .bio
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #C9DBB2;
+    height:   50em;
+  }
+  .bordure-bio
+  {
+    display: flex;
+    flex-direction: row;
+    padding: 5em;
+    padding-left: 19em;
+    justify-content: space-between;
+  }
+
+  .bordure-bio p 
+  {
+
+    width: 80%;
+    color: #333533;
+    margin-top: 2em;
+    height: 10%;
+    text-align: center;
+  }
+
+  .bordure-bio h1
+  {
+    margin-right: 2em;
+    font-size: 60px;
+    font-weight: 900;
+    color: #333533;
+    text-align: center;
+
+  }
+
+  .label-bio
+  {
+    display: none;
+    
+    
+  }
+
+
+}
+  
+
+
+
+
+
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/

@@ -1,0 +1,179 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  font-family: Montserrat;
+  background-color: #F4EEE0;
+}
+
+
+
+/*BARRE DE NAVIGATION*/
+/*BARRE DE NAVIGATION*/
+/*BARRE DE NAVIGATION*/
+
+.flex-nav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  padding-right: 7em;
+  padding-left: 7em;
+  
+}
+
+.flex-ul
+{
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+}
+
+.flex-nav a
+{
+  color: #333533;
+}
+
+.logo-coconut
+{
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #333533;
+}
+
+.ici
+{
+  font-weight: 700;
+}
+
+/* SECTION*/
+
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire
+{
+    position: absolute;
+    top: 12em;
+    width: 30em;
+    height: 40em;
+    background-color: red;
+}
+
+fieldset
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: transparent;
+ 
+
+}
+
+.position
+{
+  position: relative;
+  top: 6.5em;
+
+}
+
+fieldset input, textarea
+{
+  background-color: white;
+  border: transparent;
+}
+
+
+
+
+form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.image-contact
+{
+  display: flex;
+  flex-direction: row;
+  gap: -2em;
+  align-items: center;
+  padding-right: 15em;
+}
+
+.imaget
+{
+  width: 29em;
+  height: 35em;
+  background-image: url(images/beach.png);
+  order: -1;
+  position: relative;
+  top: 5em;
+  right: 5em  ;
+}
+
+.taille
+{
+  width: 40em;
+  height: 4em;
+  margin-bottom: 3em;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 1em;
+}
+
+.taille2
+{
+  width: 40em;
+  height: 10.1em;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 1em;
+  padding-top: 1em;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+
+.taille.button
+{
+  margin-top: 2em;
+  border: none;
+  background-color: #98D8AA;
+  cursor:pointer;
+  color: white;
+  font-weight: 900;
+}
+
+
+
+@media screen and (max-width: 1463px) 
+{
+
+  .imaget
+  {
+    display: none;
+  }
+  
+}
